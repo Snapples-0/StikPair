@@ -52,6 +52,8 @@ jobs:
             -destination 'generic/platform=iOS' \
             -derivedDataPath build/dd \
             IPHONEOS_DEPLOYMENT_TARGET=26.2 \
+            EXCLUDED_SOURCE_FILE_NAMES=StikPair.icon \
+            ASSETCATALOG_COMPILER_APPICON_NAME= \
             CODE_SIGNING_ALLOWED=NO \
             CODE_SIGNING_REQUIRED=NO \
             CODE_SIGN_IDENTITY="" \
